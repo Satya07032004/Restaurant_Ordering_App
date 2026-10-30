@@ -1,0 +1,29 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id='mainContainer' class="mainContainer">
+            <header>
+                <h1>Satya's Diner</h1>
+                <p>The best burgers and pizzas in the town</p>
+            </header>
+            <div id='itemContainer'></div>
+            <div id='orderContainer'></div>
+        </div>
+<div id="payment-modal" class="modal hidden">
+    <div class="modal-inner">
+        <h2>Enter Payment Details</h2>
+        <form id="payment-form">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="number" name="cardNumber" placeholder="Enter card number" required>
+            <input type="number" name="cvv" placeholder="Enter CVV" required>
+            <button type="submit" class="pay-btn">Pay</button>
+        </form>
+    </div>
+</div>
+	<script type='module' src="index.js"></script>
+    </body>
+</html>
+
+
